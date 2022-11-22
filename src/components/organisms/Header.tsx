@@ -1,4 +1,4 @@
-import { Box, Button, Flex, HStack, useColorModeValue } from '@chakra-ui/react'
+import { Button, Flex, HStack, useColorModeValue, Wrap, WrapItem } from '@chakra-ui/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import SearchInput from '@/components/molecules/SearchInput'
@@ -15,22 +15,17 @@ const Header = () => {
           </Link>
           <SearchInput />
         </HStack>
-        <Flex justifyContent={'center'} alignItems={'center'} direction={'row'}>
+        <Flex direction={'row'} justifyContent={'center'} alignItems={'center'} gap={5}>
+          <Wrap display={'flex'} flexDirection={'row'} alignItems={'center'} spacing={5}>
+            <WrapItem>
+              <Link href={'/login'}>로그인</Link>
+            </WrapItem>
+            <WrapItem>
+              <Link href={'/login'}>회원가입</Link>
+            </WrapItem>
+          </Wrap>
           <ThemeToggleButton />
-          <Link href={'/login'}>
-            <Button rounded={'2xl'} ms={6}>
-              로그인
-            </Button>
-          </Link>
         </Flex>
-      </Flex>
-      <Flex direction={'row'} justifyContent={'space-between'} mt={10}>
-        <HStack justifyContent={'center'} alignItems={'center'} spacing={3}>
-          <Button>전체 게시글</Button>
-          <Button>담아둔 여행지</Button>
-          <Button>마이페이지</Button>
-        </HStack>
-        <Button colorScheme={'messenger'}>🚀 플랜 세우러 가기 ✈️ </Button>
       </Flex>
     </Flex>
   )
