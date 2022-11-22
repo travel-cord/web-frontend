@@ -1,5 +1,5 @@
 import { Card, Flex } from '@chakra-ui/react'
-import SearchTravelDateBox from '@/components/Molecules/SearchTravelDateBox'
+import SearchTravelDateBox from '@/components/molecules/SearchTravelDateBox'
 
 // TODO : 리팩토링을 요함
 const MainHero = () => {
