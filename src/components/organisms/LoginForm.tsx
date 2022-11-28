@@ -1,4 +1,4 @@
-import { Button, Flex, Heading, VStack } from '@chakra-ui/react'
+import { Button, Heading, VStack } from '@chakra-ui/react'
 import { RiKakaoTalkFill, RiGoogleFill } from 'react-icons/ri'
 import { SiNaver } from 'react-icons/si'
 
