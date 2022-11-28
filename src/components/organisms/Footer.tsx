@@ -35,7 +35,7 @@ const Footer = () => {
                 Travel
               </Text>
             </Text>
-            <Flex direction={'column'} mt={49} fontSize={'12px'} letterSpacing={'-0.25px'} lineHeight={'unset'}>
+            <Flex direction={'column'} mt={150} fontSize={'12px'} letterSpacing={'-0.25px'} lineHeight={'unset'}>
               <Text as={'span'}>대표&emsp;|&emsp;윤한빈 오세일 박정민&emsp;&emsp;서비스명&emsp;|&emsp;트레블코드</Text>
               <Text as={'span'}>
                 사업자번호&emsp;|&emsp;120-87-69298&emsp;&emsp;통신판매&emsp;|&emsp;제2011-서울강남-01864&emsp;&emsp;직업정보제공&emsp;|&emsp;J1200020190003
