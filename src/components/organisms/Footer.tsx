@@ -7,7 +7,6 @@ import {
   Heading,
   Text,
   useColorModeValue,
-  VStack,
   Wrap,
   WrapItem
 } from '@chakra-ui/react'
@@ -22,7 +21,7 @@ const Footer = () => {
   const logoImg = useColorModeValue('/logo-light.png', '/logo-dark.png')
 
   return (
-    <Box as={'footer'} mt={10}>
+    <Box as={'footer'} mt={10} py={8}>
       <Container maxW={'container.xl'}>
         <Flex justifyContent={'space-between'}>
           <Flex direction={'column'}>
