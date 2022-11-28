@@ -1,4 +1,4 @@
-import { Button, Flex, HStack, useColorModeValue, Wrap, WrapItem } from '@chakra-ui/react'
+import { Flex, HStack, useColorModeValue, Wrap, WrapItem } from '@chakra-ui/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import SearchInput from '@/components/molecules/SearchInput'
