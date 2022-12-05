@@ -6,7 +6,7 @@ import { Flex } from '@chakra-ui/react'
 const Login: NextPage = () => {
   return (
     <MainTemplate>
-      <Flex justifyContent={'center'} alignItems={'center'} h={'50vh'}>
+      <Flex justifyContent={'center'} alignItems={'center'} h={'85vh'}>
         <LoginForm />
       </Flex>
     </MainTemplate>
