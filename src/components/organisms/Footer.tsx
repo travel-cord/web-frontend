@@ -19,9 +19,10 @@ import { GrFacebook, GrYoutube, GrGithub } from 'react-icons/gr'
 
 const Footer = () => {
   const logoImg = useColorModeValue('/logo-light.png', '/logo-dark.png')
+  const bg = useColorModeValue('#F9FAFB', 'gray.800')
 
   return (
-    <Box as={'footer'} mt={10} py={8}>
+    <Box as={'footer'} mt={10} py={8} bg={bg}>
       <Container maxW={'container.xl'}>
         <Flex justifyContent={'space-between'}>
           <Flex direction={'column'}>
