@@ -27,7 +27,7 @@ const Footer = () => {
         <Flex justifyContent={'space-between'}>
           <Flex direction={'column'}>
             <Link href={'/'} passHref>
-              <Image src={logoImg} alt={'logo'} width={128} height={50} />
+              <Image src={logoImg} alt={'logo'} width={128} height={50} priority={true} />
             </Link>
             <Text as={'span'}>
               powered by{' '}
