@@ -1,4 +1,4 @@
-import { GetServerSideProps, NextPage } from 'next'
+import { NextPage } from 'next'
 import MainTemplate from '@/components/templates/MainTemplate'
 import { Flex, Heading, Spinner, VStack } from '@chakra-ui/react'
 import { useAppDispatch, useAppSelector } from '@/hooks/index'
