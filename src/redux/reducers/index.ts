@@ -1,9 +1,9 @@
-import { signSlice, signState } from '@/redux/reducers/sign.slice'
+import { oauthSlice, oauthState } from '@/redux/reducers/oauth.slice'
 import { AnyAction, CombinedState, combineReducers } from '@reduxjs/toolkit'
 import { HYDRATE } from 'next-redux-wrapper'
 
 type ReducerState = {
-  sign: signState
+  oauth: oauthState
 }
 
 const rootReducers = (state: any, action: AnyAction): CombinedState<ReducerState> => {
@@ -15,7 +15,7 @@ const rootReducers = (state: any, action: AnyAction): CombinedState<ReducerState
       }
     default:
       return combineReducers({
-        sign: signSlice.reducer
+        oauth: oauthSlice.reducer
       })(state, action)
   }
 }
